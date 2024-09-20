@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #a7c9ae;
+    border-top: 5px solid #d60912;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.contacto-info {
+    text-align: right;
+}
+
+.contacto-info a {
+    color: #6a6a6a;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 10px;
+    transition: .3s ease;
+}
+
+.contacto-info a:hover {
+	color: #0a4515;
+}
+
+.contacto-info .telefono {
+    font-size: 14px;
+    color: #333;
+}
+
+.contacto-info .telefono img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.agencias {
+    color: #7cb82f;
+    font-weight: bold;
+}
+
+header .contacto-info span {
+    margin-left: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    color: #0a4515;
+    font-weight: bold;
+}
+
+.contenedor-destinos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.destino {
+    background-color: white;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    width: 22%;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.destino:hover {
+    transform: translateY(-5px);
+}
+
+.imagen-destino img {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.info-destino {
+    padding: 15px;
+}
+
+h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.detalle {
+    font-size: 14px;
+    color: #555;
+    display: block;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 13px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.precio {
+    margin-top: 10px;
+}
+
+.precio strong {
+    color: #27ae60;
+    font-size: 20px;
+}
+
+.precio small {
+    display: block;
+    color: #999;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn-mas-info {
+    background-color: #27ae60;
+    color: white;
+}
+
+.btn-mas-info:hover {
+    background-color: #219150;
+}
+
+.btn-reserva {
+    background-color: #d60912;
+    color: white;
+}
+
+.btn-reserva:hover {
+    background-color: #b3080f;
+}
+
+.formulario-reserva {
+    width: 100%;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.formulario-reserva h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+    border-color: #27ae60;
+}
+
+.btn-reserva-form {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-reserva-form:hover {
+    background-color: #219150;
+}
